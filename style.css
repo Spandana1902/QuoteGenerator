@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #EDC988;
+
+}
+
+h1{
+    margin-top: 20px;
+    font-family: 'Rampart One', cursive;
+    color: #D7385E;
+}
+.container{
+    border: 8px solid #F8EFD4;
+    width: 50%;
+    align-self: center;
+    display: grid;
+    padding: 10px 10px;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 120px auto;
+    box-shadow: 5px 10px 20px black;
+    height: 80vh;
+}
+.grid-item {
+    font-size: 20px;
+    text-align: center;
+}
+#display{
+    margin-top: 30px;
+    font-family: 'Rock Salt', cursive;
+    color: #172e4e;
+    font-size: 20px; /*POSITION OF BUTTON KEEPS ON CHANGING WITH AMOUNT OF TEXT*/
+}
+button{
+    position: fixed;
+    margin-left: -80px;
+    margin-bottom: 20px;
+    padding: 2px 10px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 12px;
+    background: #F8EFD4;
+    color: #D7385E;
+    border: solid #172e4e;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #D7385E;
+    color: #F8EFD4;
+}
